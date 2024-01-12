@@ -18,7 +18,7 @@
 
 # 📖 About This Project <a name="about-project"></a>
 
-> GitHub Profiles A website built with HTML, SCSS, and TypeScript, utilizing the GitHub API and Axios for seamless data retrieval. Linters are employed to maintain clean code. Explore the live demo to search for any GitHub user.
+> Walk-Cycle-Maps is a website created with HTML, SCSS, and JavaScript. It utilizes an API for the map and local storage to save your trips. Linters are employed to overcome errors and maintain clean code. Additionally, classes are utilized to implement the logic. Please check out the live demo.
 
 # Sample Of Website <a name="Sample-Of-Website"></a>
 
@@ -36,7 +36,7 @@
   <li><a href="https://en.wikipedia.org/wiki/CSS">Css</a></li>
   <li><a href="https://en.wikipedia.org/wiki/Sass_(style_sheet_language)">Scss</a></li>
   <li><a href="https://en.wikipedia.org/wiki/JavaScript">Javascript</a></li>
-  <li><a href="https://en.wikipedia.org/wiki/TypeScript">TypeScript</a></li>
+
   <li><a href="https://stylelint.io/">Html/CSS Linters</a></li>
   <li><a href="https://eslint.org/">eslinters/TsLinters</a></li>
   </ul>
@@ -47,11 +47,11 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Responsive Website]**
-- **[Flex & Grid]**
+- **[Flex ]**
 - **[SCSS ]**
-- **[TypeScript ]**
 - **[Linters ]**
-- **[Tslint ]**
+- **[Eslint ]**
+- **[API ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
