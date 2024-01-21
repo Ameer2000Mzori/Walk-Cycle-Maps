@@ -66,5 +66,21 @@ body {
   background-color: #42484d;
   display: flex;
 }
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs {
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Right-Inputs {
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=style.css.map */

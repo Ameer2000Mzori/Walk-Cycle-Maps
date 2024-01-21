@@ -82,6 +82,24 @@ body {
             // height: 100px;
             background-color: #42484d;
             display: flex;
+
+            .new-Trip-Left-Inputs {
+              width: 50%;
+              text-align: center;
+              align-items: center;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+            }
+
+            .new-Trip-Right-Inputs {
+              width: 50%;
+              text-align: center;
+              align-items: center;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+            }
           }
         }
       }
