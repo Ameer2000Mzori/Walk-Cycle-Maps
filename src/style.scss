@@ -78,12 +78,13 @@ body {
           justify-content: flex-start;
 
           .add-New-Trip-Card {
-            // width: 95%;
-            // height: 100px;
+            width: 95%;
+            height: 100px;
             background-color: #42484d;
             display: flex;
 
-            .new-Trip-Left-Inputs {
+            .new-Trip-Left-Inputs,
+            .new-Trip-Right-Inputs {
               width: 50%;
               text-align: start;
               align-items: start;
@@ -92,7 +93,9 @@ body {
               justify-content: space-evenly;
 
               .new-Trip-Left-Inputs-1,
-              .new-Trip-Left-Inputs-2 {
+              .new-Trip-Left-Inputs-2,
+              .new-Trip-Right-Inputs-1,
+              .new-Trip-Right-Inputs-2 {
                 color: $color-light--2;
                 font-family: $fontOne;
                 width: 100%;
@@ -102,15 +105,6 @@ body {
                 flex-direction: row;
                 justify-content: space-evenly;
               }
-            }
-
-            .new-Trip-Right-Inputs {
-              width: 50%;
-              text-align: center;
-              align-items: center;
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
             }
           }
         }

@@ -63,10 +63,13 @@ body {
   justify-content: flex-start;
 }
 .header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card {
+  width: 95%;
+  height: 100px;
   background-color: #42484d;
   display: flex;
 }
-.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs {
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Right-Inputs {
   width: 50%;
   text-align: start;
   align-items: start;
@@ -75,7 +78,13 @@ body {
   justify-content: space-evenly;
 }
 .header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs .new-Trip-Left-Inputs-1,
-.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs .new-Trip-Left-Inputs-2 {
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs .new-Trip-Left-Inputs-2,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs .new-Trip-Right-Inputs-1,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs .new-Trip-Right-Inputs-2,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Right-Inputs .new-Trip-Left-Inputs-1,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Right-Inputs .new-Trip-Left-Inputs-2,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Right-Inputs .new-Trip-Right-Inputs-1,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Right-Inputs .new-Trip-Right-Inputs-2 {
   color: #ececec;
   font-family: "Roboto", sans-serif;
   width: 100%;
@@ -84,14 +93,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
-.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Right-Inputs {
-  width: 50%;
-  text-align: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
