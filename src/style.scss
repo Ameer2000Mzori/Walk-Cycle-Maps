@@ -15,4 +15,14 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+
+  .header-Wrap {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 }
