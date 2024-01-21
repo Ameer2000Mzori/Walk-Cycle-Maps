@@ -85,11 +85,23 @@ body {
 
             .new-Trip-Left-Inputs {
               width: 50%;
-              text-align: center;
-              align-items: center;
+              text-align: start;
+              align-items: start;
               display: flex;
               flex-direction: column;
-              justify-content: center;
+              justify-content: space-evenly;
+
+              .new-Trip-Left-Inputs-1,
+              .new-Trip-Left-Inputs-2 {
+                color: $color-light--2;
+                font-family: $fontOne;
+                width: 100%;
+                text-align: start;
+                align-items: start;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+              }
             }
 
             .new-Trip-Right-Inputs {
