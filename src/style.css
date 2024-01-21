@@ -29,6 +29,7 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+  background-color: #2d3439;
 }
 .header .header-Wrap .header-Left .header-Left-Wrap {
   height: 100%;
@@ -47,6 +48,14 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+}
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Top .header-Left-Top-Icon {
+  object-fit: cover;
+  width: 50%;
+}
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap {
+  height: 70%;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
