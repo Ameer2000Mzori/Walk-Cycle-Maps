@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Doodle+Shadow&display=swap");
-
 body {
   padding: 0;
   margin: 0;
@@ -13,7 +12,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .header .header-Wrap {
   width: 95%;
   height: 95%;
@@ -23,7 +21,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .header .header-Wrap .header-Left {
   width: 30%;
   height: 100%;
@@ -34,7 +31,6 @@ body {
   justify-content: center;
   background-color: #2d3439;
 }
-
 .header .header-Wrap .header-Left .header-Left-Wrap {
   height: 100%;
   width: 100%;
@@ -44,7 +40,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Top {
   width: 100%;
   height: 20%;
@@ -54,13 +49,22 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Top .header-Left-Top-Icon {
   object-fit: cover;
   width: 50%;
 }
-
 .header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap {
   height: 70%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-start;
 }
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card {
+  background-color: #42484d;
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
