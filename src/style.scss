@@ -35,7 +35,7 @@ body {
     justify-content: center;
 
     .header-Left {
-      width: 30%;
+      width: 40%;
       height: 100%;
       display: flex;
       flex-direction: column;
@@ -74,36 +74,51 @@ body {
           display: flex;
           flex-direction: column;
           text-align: center;
-          align-items: center;
-          justify-content: flex-start;
+          align-items: start;
+          justify-content: center;
 
           .add-New-Trip-Card {
-            width: 95%;
-            height: 100px;
+            width: 100px;
+            height: 300px;
             background-color: #42484d;
             display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 15px;
 
             .new-Trip-Left-Inputs,
             .new-Trip-Right-Inputs {
-              width: 50%;
-              text-align: start;
-              align-items: start;
+              width: 100%;
+              text-align: center;
+              align-items: center;
               display: flex;
               flex-direction: column;
               justify-content: space-evenly;
+              gap: 15px;
 
               .new-Trip-Left-Inputs-1,
               .new-Trip-Left-Inputs-2,
               .new-Trip-Right-Inputs-1,
               .new-Trip-Right-Inputs-2 {
                 color: $color-light--2;
+                gap: 15px;
                 font-family: $fontOne;
                 width: 100%;
-                text-align: start;
-                align-items: start;
+                text-align: center;
+                align-items: center;
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 justify-content: space-evenly;
+
+                input,
+                select {
+                  font-family: $fontOne;
+                  width: 65px;
+                  height: 20px;
+                  border-radius: 15px;
+                  outline: none;
+                  border: none;
+                }
               }
             }
           }

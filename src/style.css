@@ -22,7 +22,7 @@ body {
   justify-content: center;
 }
 .header .header-Wrap .header-Left {
-  width: 30%;
+  width: 40%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -59,23 +59,27 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: start;
+  justify-content: center;
 }
 .header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card {
-  width: 95%;
-  height: 100px;
+  width: 100px;
+  height: 300px;
   background-color: #42484d;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
 }
 .header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs,
 .header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Right-Inputs {
-  width: 50%;
-  text-align: start;
-  align-items: start;
+  width: 100%;
+  text-align: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  gap: 15px;
 }
 .header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs .new-Trip-Left-Inputs-1,
 .header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs .new-Trip-Left-Inputs-2,
@@ -86,13 +90,37 @@ body {
 .header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Right-Inputs .new-Trip-Right-Inputs-1,
 .header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Right-Inputs .new-Trip-Right-Inputs-2 {
   color: #ececec;
+  gap: 15px;
   font-family: "Roboto", sans-serif;
   width: 100%;
-  text-align: start;
-  align-items: start;
+  text-align: center;
+  align-items: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
+}
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs .new-Trip-Left-Inputs-1 input,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs .new-Trip-Left-Inputs-1 select,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs .new-Trip-Left-Inputs-2 input,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs .new-Trip-Left-Inputs-2 select,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs .new-Trip-Right-Inputs-1 input,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs .new-Trip-Right-Inputs-1 select,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs .new-Trip-Right-Inputs-2 input,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Left-Inputs .new-Trip-Right-Inputs-2 select,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Right-Inputs .new-Trip-Left-Inputs-1 input,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Right-Inputs .new-Trip-Left-Inputs-1 select,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Right-Inputs .new-Trip-Left-Inputs-2 input,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Right-Inputs .new-Trip-Left-Inputs-2 select,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Right-Inputs .new-Trip-Right-Inputs-1 input,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Right-Inputs .new-Trip-Right-Inputs-1 select,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Right-Inputs .new-Trip-Right-Inputs-2 input,
+.header .header-Wrap .header-Left .header-Left-Wrap .header-Left-Bottom-Cards-Wrap .add-New-Trip-Card .new-Trip-Right-Inputs .new-Trip-Right-Inputs-2 select {
+  font-family: "Roboto", sans-serif;
+  width: 65px;
+  height: 20px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */
