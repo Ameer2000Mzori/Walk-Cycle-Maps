@@ -52,6 +52,7 @@ body {
         text-align: center;
         align-items: center;
         justify-content: center;
+        position: relative;
 
         .header-Left-Top {
           width: 100%;
@@ -61,6 +62,8 @@ body {
           text-align: center;
           align-items: center;
           justify-content: center;
+          position: absolute;
+          top: 0;
 
           .header-Left-Top-Icon {
             object-fit: cover;
@@ -68,7 +71,7 @@ body {
           }
         }
 
-        .header-Left-Bottom-Cards-Wrap {
+        .header-Left-Bottom-New-Trip-Card-Wrap {
           height: 70%;
           width: 100%;
           display: flex;
@@ -76,6 +79,7 @@ body {
           text-align: center;
           align-items: start;
           justify-content: center;
+          position: absolute;
 
           .add-New-Trip-Card {
             width: 100px;
@@ -122,6 +126,13 @@ body {
               }
             }
           }
+        }
+
+        .card-Trip {
+          height: 10px;
+          width: 10px;
+          background-color: black;
+          display: block;
         }
       }
     }
