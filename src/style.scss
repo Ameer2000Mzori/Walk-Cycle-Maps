@@ -29,14 +29,14 @@ body {
     width: 95%;
     height: 95%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
 
-    .header-Left {
-      width: 40%;
-      height: 100%;
+    .header-Top {
+      width: 100%;
+      height: 10%;
       display: flex;
       flex-direction: column;
       text-align: center;
@@ -44,28 +44,29 @@ body {
       justify-content: center;
       background-color: $color-dark--1;
 
-      .header-Left-Wrap {
+      .header-Top-Wrap {
         height: 100%;
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
         align-items: center;
         justify-content: center;
         position: relative;
 
-        .header-Left-Top {
-          width: 100%;
-          height: 20%;
+        .header-Top-Img-Wrap {
+          width: 50%;
+          height: 100%;
           display: flex;
           flex-direction: column;
           text-align: center;
           align-items: center;
           justify-content: center;
 
-          .header-Left-Top-Icon {
+          .header-Top-Icon {
             object-fit: cover;
-            width: 50%;
+
+            height: 50%;
           }
         }
 
@@ -79,9 +80,8 @@ body {
           justify-content: center;
 
           .add-New-Trip-Card {
-            width: 100%;
-            height: 20%;
-            background-color: #42484d;
+            width: 50%;
+            height: 100%;
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -127,9 +127,9 @@ body {
       }
     }
 
-    .header-Right {
-      width: 70%;
-      height: 100%;
+    .header-Bottom {
+      width: 100%;
+      height: 90%;
       display: flex;
       flex-direction: column;
       text-align: center;

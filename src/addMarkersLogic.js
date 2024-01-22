@@ -1,4 +1,4 @@
-// console.log('hallo world')
+console.log('hallo world')
 
 // // getting the user location
 // if (navigator.geolocation) {

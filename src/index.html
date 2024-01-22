@@ -33,16 +33,12 @@
     <!-- header -->
     <section class="header">
       <div class="header-Wrap">
-        <div class="header-Left">
-          <div class="header-Left-Wrap">
-            <div class="header-Left-Top">
-              <img
-                class="header-Left-Top-Icon"
-                src="./assets/logoMap.png"
-                alt=""
-              />
+        <div class="header-Top">
+          <div class="header-Top-Wrap">
+            <div class="header-Top-Img-Wrap">
+              <img class="header-Top-Icon" src="./assets/logoMap.png" alt="" />
             </div>
-            <div class="header-Left-Bottom-New-Trip-Card-Wrap">
+            <div class="header-Top-Right-New-Trip-Card-Wrap">
               <div class="add-New-Trip-Card">
                 <div class="new-Trip-Left-Inputs">
                   <div class="new-Trip-Left-Inputs-1">
@@ -80,15 +76,14 @@
                 </div>
               </div>
             </div>
-            <div class="card-Trip"></div>
           </div>
         </div>
-        <div class="header-Right">
+        <div class="header-Bottom">
           <div id="map" class="map-El"></div>
         </div>
       </div>
     </section>
     <script type="module" src="showUserLocation.js" defer></script>
-    <script type="module" src="api.js" defer></script>
+    <script type="module" src="addMarkersLogic.js" defer></script>
   </body>
 </html>
