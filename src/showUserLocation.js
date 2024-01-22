@@ -12,7 +12,7 @@ if (navigator.geolocation) {
 
       // show user Location
 
-      var map = L.map('map').setView([latitude, longitude, 21], 13)
+      var map = L.map('map').setView([latitude, longitude], 13)
 
       // my location
       // 52.3624756,5.2083721,21
@@ -22,9 +22,17 @@ if (navigator.geolocation) {
           '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       }).addTo(map)
 
-      L.marker([latitude, longitude, 21])
+      var redIcon = L.icon({
+        iconUrl:
+          'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+      })
+
+      L.marker([latitude, longitude], { icon: redIcon })
         .addTo(map)
-        .bindPopup('your current location')
+        .bindPopup('Your current location <br> (this may not be your ex....)')
         .openPopup()
     },
     () => {
