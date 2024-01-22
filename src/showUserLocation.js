@@ -1,20 +1,14 @@
-// selection elements
-
-// gelobal varibales
-let usercoord_1
-let usercoord_2
-
 // requesting data from the user
-
 // getting the user location
 if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(
     (position) => {
+      // getting locations
+      // testing
       console.log(position.coords)
+
       const { latitude, longitude } = position.coords
       console.log(`This is your position: ${latitude}, ${longitude}`)
-      usercoord_1 = latitude
-      usercoord_2 = longitude
 
       // show user Location
 
@@ -30,7 +24,7 @@ if (navigator.geolocation) {
 
       L.marker([latitude, longitude, 21])
         .addTo(map)
-        .bindPopup('A pretty CSS popup.<br> Easily customizable.')
+        .bindPopup('your current location')
         .openPopup()
     },
     () => {
