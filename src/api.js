@@ -15,7 +15,7 @@ if (navigator.geolocation) {
 }
 
 //
-var map = L.map('map').setView([52.3624756, 5.2083721, 21], 13)
+var map = L.map('map').setView([latitude, longitude, 21], 13)
 
 // my location
 // 52.3624756,5.2083721,21
@@ -25,7 +25,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map)
 
-L.marker([52.3624756, 5.2083721, 21])
+L.marker([latitude, longitude, 21])
   .addTo(map)
   .bindPopup('A pretty CSS popup.<br> Easily customizable.')
   .openPopup()
