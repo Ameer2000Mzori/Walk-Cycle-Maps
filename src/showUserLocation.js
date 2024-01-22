@@ -9,18 +9,16 @@ if (navigator.geolocation) {
       // getting locations
       // testing
       console.log(position.coords)
-
       const { latitude, longitude } = position.coords
       console.log(`This is your position: ${latitude}, ${longitude}`)
 
       // show user Location
 
-      var map = L.map('map').setView([latitude, longitude], 13)
       let userPosationText =
         'Your current location <br> (this may not be your ex....)'
 
       // passing the data to showMarkersLogic function
-      showMarkersLogic(map, latitude, longitude, userPosationText)
+      showMarkersLogic(latitude, longitude, userPosationText)
     }, // else if there is no location fire this function
     () => {
       console.log('There is no location')
