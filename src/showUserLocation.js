@@ -1,5 +1,17 @@
 // import data
-import { showMarkersLogic } from './showMarkersLogic.js'
+// import { showMarkersLogic } from './showMarkersLogic.js'
+
+// test object
+const locationData = [
+  {
+    latitude: 51.505,
+    longitude: -0.09,
+  },
+  {
+    latitude: 41.505,
+    longitude: -0.19,
+  },
+]
 
 // requesting data from the user // getting the user location
 
@@ -10,12 +22,12 @@ if (navigator.geolocation) {
       const { latitude, longitude } = position.coords
       console.log(`This is your position: ${latitude}, ${longitude}`)
 
-      // show user Location
-      let userPosationText =
-        'Your current location <br> (this may not be your ex....)'
+      var map = L.map('map').setView([51.505, -0.09], 13)
 
-      // passing the data to showMarkersLogic function
-      showMarkersLogic(latitude, longitude, userPosationText)
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      }).addTo(map)
     },
     () => {
       console.log('There is no location')
