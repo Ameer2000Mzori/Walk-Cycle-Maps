@@ -1,13 +1,15 @@
 // add new marker function
+let map
+let redIcon
+// show user location
 export const showMarkersLogic = (latitude, longitude, markerText) => {
-  let map = L.map('map').setView([latitude, longitude], 13)
-
+  map = L.map('map').setView([latitude, longitude], 13)
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution:
       '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
   }).addTo(map)
 
-  let redIcon = L.icon({
+  redIcon = L.icon({
     iconUrl:
       'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
     iconSize: [25, 41],
@@ -20,4 +22,3 @@ export const showMarkersLogic = (latitude, longitude, markerText) => {
     .bindPopup(`${markerText}`)
     .openPopup()
 }
-// markerText
