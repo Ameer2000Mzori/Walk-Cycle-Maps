@@ -18,7 +18,7 @@
 
 # 📖 About This Project <a name="about-project"></a>
 
-> Walk-Cycle-Maps is a website created with HTML, SCSS, and JavaScript. It utilizes an API for the map and local storage to save your trips. Linters are employed to overcome errors and maintain clean code. Additionally, classes are utilized to implement the logic. Please check out the live demoo.
+> Walk-Cycle-Maps is a website created with HTML, SCSS, and JavaScript. It utilizes an API for the map. Linters are employed to overcome errors and maintain clean code. Additionally, Please check out the live demoo.
 
 # Sample Of Website <a name="Sample-Of-Website"></a>
 
